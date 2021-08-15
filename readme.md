@@ -1,7 +1,7 @@
 ## Python job with Apache Beam and Spark Cluster on Kubernetes
 
 ### Why 
- There is currently no step-by-step guide on how to configure Apache Beam with Spark cluster on Kubernetes. 
+ There is currently no step-by-step guide on how to configure Apache Beam with Spark cluster on Kubernetes for Python job. 
 
 # Installation
 
