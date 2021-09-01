@@ -23,7 +23,7 @@ def run():
         "--artifact_endpoint=10.0.2.15:30091",
         "--save_main_session",
         "--environment_type=DOCKER",
-        "--environment_config=docker.io/apache/beam_python3.7_sdk"
+        "--environment_config=docker.io/apache/beam_python3.7_sdk:2.32.0"
 
     ])
 

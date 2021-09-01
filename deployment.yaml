@@ -16,7 +16,8 @@ spec:
    spec:
      containers:
      - name: spark-beam-jobserver
-       image: apache/beam_spark_job_server
+       image: apache/beam_spark_job_server:2.32.0
+       imagePullPolicy: Always
        ports:
        - containerPort: 8099
          name: jobservice
