@@ -43,7 +43,7 @@
 ### Run Example
 - Install Apache beam python library
     ```
-    pip install apache-beam==2.30.0
+    pip install apache-beam==2.33.0
     ```
 - Get the IP and input it into example.py for --job_endpoint and --artifact_endpoint. No need to change to the port number 
     ```

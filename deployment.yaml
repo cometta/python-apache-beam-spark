@@ -16,7 +16,7 @@ spec:
    spec:
      containers:
      - name: spark-beam-jobserver
-       image: apache/beam_spark_job_server:2.32.0
+       image: apache/beam_spark_job_server:2.33.0
        imagePullPolicy: Always
        ports:
        - containerPort: 8099
@@ -49,10 +49,10 @@ spec:
  type: NodePort
  ports:
  - port: 8099
-   nodePort: 30090
+   nodePort: 32090
    name: job-service
  - port: 8098
-   nodePort: 30091
+   nodePort: 32091
    name: artifacts
 #  type: ClusterIP
 #  ports:
